@@ -77,4 +77,4 @@ fi
 if [ ! -z "$EXIT" ]; then exit "$EXIT"; fi
 
 # end
-#/* vim set expandtab ts=4 noai
+#/* vim set expandtab ts=2 noai
