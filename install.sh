@@ -181,7 +181,7 @@ fi
 
 run_postinst() {
   dfmgr_run_post
-  cmd_exists termite || bash -c "$DOWNLOADED_TO/build.sh"
+  #cmd_exists termite || bash -c "$DOWNLOADED_TO/build.sh"
 }
 
 execute \
