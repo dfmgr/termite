@@ -146,7 +146,7 @@ run_postinst() {
 }
 #
 execute "run_postinst" "Running post install scripts"
-cmd_exists termite || printf_red "\t\tTermite isn't installed please run: $INSTDIR/build.sh"
+cmd_exists termite || printf_red "Termite isn't installed please run: $INSTDIR/build.sh"
 # - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 # create version file
 dfmgr_install_version
