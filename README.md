@@ -5,7 +5,7 @@ Termite is a minimal VTE-based terminal emulator
 Automatic install/update:
 
 ```shell
-bash -c "$(curl -LSs https://github.com/dfmgr/termite/raw/master/install.sh)"
+bash -c "$(curl -LSs https://github.com/dfmgr/termite/raw/main/install.sh)"
 ```
 
 Manual install:
